@@ -1,3 +1,13 @@
+CREATE TABLE subway_statistics (
+     seq_id            NUMBER        NOT NULL,
+     station_name      VARCHAR2(100)     NULL,
+     boarding_date     DATE              NULL,
+     gubun             VARCHAR2(10)      NULL,
+     boarding_time     NUMBER            NULL,
+     passenger_number  NUMBER            NULL,
+     PRIMARY KEY ( seq_id )
+);
+
 INSERT INTO subway_statistics values(1,'서울역(150)','2017-04-01','승차',7,654);
 INSERT INTO subway_statistics values(2,'서울역(150)','2017-04-01','하차',7,1923);
 INSERT INTO subway_statistics values(3,'서울역(150)','2017-04-02','승차',7,413);
