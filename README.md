@@ -1,3 +1,5 @@
+## SQL 기초 강의 예제 코드
+
 ```sql
 CREATE TABLE emp03 (                             
    emp_id      NUMBER         NOT NULL,
